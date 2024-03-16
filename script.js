@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     /* elements from HTML */
-    const todoForm = document.querySelector('.todo-form'); /* the form element with inside the input el toinput the new task */
-    const todoInput = document.querySelector('.todo-input'); /* to actually write the task text */
-    const todoList = document.querySelector('.todo-list'); /* the container where the tasks will be shown */
-    const filterButtons = document.querySelectorAll('.filter-buttons button'); /* to filter the tasks */
+    const todoForm = document.querySelector('.todo-form'); // the form element with inside the input el toinput the new task 
+    const todoInput = document.querySelector('.todo-input'); // to actually write the task text 
+    const todoList = document.querySelector('.todo-list'); // the container where the tasks will be shown 
+    const filterButtons = document.querySelectorAll('.filter-buttons button'); // to filter the tasks 
 
     let tasks = []; //initialize the array to store the tasks
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('The text should be at least 4 characters long!');
             }
     
-            todoInput.style.border = '2px solid red'; // add a red border to the input field
+            todoInput.style.border = '5px solid red'; // add a red border to the input field
     
             return; // Exit the function since the input is not valid
         }
@@ -127,4 +127,11 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const backgroundImages = ['back.jpg', 'back1.jpg', 'back3.jpg', 'back4.jpg']; // array of background images
+    const randomIndex = Math.floor(Math.random() * backgroundImages.length); // generate a random index
+    const selectedImage = backgroundImages[randomIndex]; // get the randomly selected image
+    document.body.style.backgroundImage = `url('${selectedImage}')`; // apply the selected image as background
 });

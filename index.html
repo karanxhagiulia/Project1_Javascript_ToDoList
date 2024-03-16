@@ -7,19 +7,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div class="container">
+        <div class="toolbar"> <h2> To Do List</h2>
+            <div class="icons">
+                <div class="icon icon-minimize"><img  src="minimize.svg" alt="Minimize Icon"></div>
+                <div class="icon icon-minimize"><img  src="maximize.svg" alt="Minimize Icon"></div>
+                <div class="icon icon-minimize"><img  src="close.svg" alt="Minimize Icon"></div>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="https://github.com/karanxhagiulia/Project1_Javascript_ToDoList"><u>F</u>ile</a></li>
+                <li><a href="https://github.com/karanxhagiulia/Project1_Javascript_ToDoList"><u>E</u>dit</a></li>
+                <li><a href="https://github.com/karanxhagiulia/Project1_Javascript_ToDoList"><u>V</u>iew</a></li>
+                <li><a href="https://github.com/karanxhagiulia/Project1_Javascript_ToDoList">F<u>a</u>vorites</a></li>
+                <li><a href="https://github.com/karanxhagiulia/Project1_Javascript_ToDoList"><u>H</u>elp</a></li>
+            </ul>
+        </div>
         <div class="desktop-window">
             <div class="title-bar">
-                <div class="icons">
-                    <span class="icon delete" ">❌</span>
-                    <span class="icon minimize" ">-</span>
-                    <span class="icon maximize">+</span>
-                </div>
-                <h1>What needs to be done?</h1>
+                <img src="stars.gif" alt="Stars" class="stars-image">
+                <h1>What needs to be done today?</h1>                
+                <img src="stars.gif" alt="Stars" class="stars-image">
             </div>
             <form class="todo-form">
                 <input type="text" id="todoInput" class="todo-input" placeholder="Enter your task">
-                <button type="submit">Add Task</button>
+                <button type="submit" class="addtaskbutton">Add Task</button>
             </form>
             <div class="todo-list"></div>
             <div class="counter"></div>
@@ -30,8 +44,7 @@
                 <button class="clear-completed">Clear Completed</button>
             </div>
         </div>
-    </div>
-
+    </div> 
     <script src="script.js"></script>
 </body>
 </html>
