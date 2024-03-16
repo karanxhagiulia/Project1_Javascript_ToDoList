@@ -200,6 +200,6 @@ body {
 }
 
 .stars-image {
-    width: 80px; /* Adjust the width of the stars image */
-    height: auto; /* Maintain aspect ratio */
+    width: 80px;
+    height: auto; 
 }
