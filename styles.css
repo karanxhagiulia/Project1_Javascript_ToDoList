@@ -1,0 +1,47 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #ffcc00; 
+    font-family: 'Space Mono', monospace; 
+}
+
+h1 {
+    font-family: 'Space Mono', monospace; 
+}
+
+input[type="text"] {
+    width: calc(100% - 75px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffff99; 
+    border: 2px solid #ff00ff; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ff00; 
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    background-color: #ffcccc; 
+    font-family: 'Space Mono', monospace; 
+}
+
+.task.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+body {
+    cursor: url('Picture2.png'), auto;
+}
