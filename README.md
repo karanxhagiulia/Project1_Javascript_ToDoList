@@ -13,4 +13,4 @@ Inspo & credits:
 * https://www.stryvemarketing.com/blog/features-of-a-great-90s-website/
 * https://jdan.github.io/98.css/
 * https://edu.gcfglobal.org/en/windows98/parts-of-the-window/1/#
-* Pixel Art Cloud by Adobe Stock
+* Pixel Art Cloud by Adobe Stock, BiscuitSnack
